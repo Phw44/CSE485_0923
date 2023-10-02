@@ -1,39 +1,159 @@
 ﻿
 -- Thêm dữ liệu cho bảng tacgia
-INSERT INTO tacgia (ma_tgia, ten_tgia, hinh_tgia) VALUES
-(1, 'Nguyễn Nhật Ánh', 'anh.jpg'),
-(2, 'Nguyễn Hồng Ân', 'hongan.jpg'),
-(3, 'Trần Nhật Ánh', 'nhatanh.jpg'),
-(4, 'Lê Hồng Lý', 'lyhong.jpg'),
-(5, 'Phan Vũ', 'phanvu.jpg'),
-(6, 'Trần Quốc Toản', 'toan.jpg'),
-(7, 'Lê Quốc Toản', 'letoan.jpg'),
-(8, 'Nguyễn Văn A', 'nguyenvana.jpg'),
-(9, 'Phạm Văn B', 'phamvanb.jpg'),
-(10, 'Trịnh Thị C', 'trinhthic.jpg');
+
+
+​insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (1, 'Thaxter Bentick', 'http://dummyimage.com/154x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (2, 'Neils Livick', 'http://dummyimage.com/215x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (3, 'Reinaldo Readwing', 'http://dummyimage.com/198x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (4, 'Payton Cleeton', 'http://dummyimage.com/121x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (5, 'Launce Iannazzi', 'http://dummyimage.com/200x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (6, 'Zacharias Judd', 'http://dummyimage.com/162x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (7, 'Burl Quakley', 'http://dummyimage.com/234x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (8, 'Catherin Duthie', 'http://dummyimage.com/199x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (9, 'Sunshine Cooksley', 'http://dummyimage.com/124x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (10, 'Odelia Marlowe', 'http://dummyimage.com/134x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (11, 'Melony Tulip', 'http://dummyimage.com/166x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (12, 'Kennith Eye', 'http://dummyimage.com/212x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (13, 'Gavrielle MacMenamie', 'http://dummyimage.com/132x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (14, 'Addie Abella', 'http://dummyimage.com/126x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (15, 'Shaine Whoolehan', 'http://dummyimage.com/176x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (16, 'Robbyn Allchorne', 'http://dummyimage.com/233x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (17, 'Margalit O''Ferris', 'http://dummyimage.com/218x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (18, 'Nehemiah Jurewicz', 'http://dummyimage.com/244x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (19, 'Chris Kilborn', 'http://dummyimage.com/133x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (20, 'Averill Faltin', 'http://dummyimage.com/242x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (21, 'Wesley Skacel', 'http://dummyimage.com/121x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (22, 'Stavro Gossan', 'http://dummyimage.com/164x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (23, 'Miquela Rivalant', 'http://dummyimage.com/168x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (24, 'Ursola Durber', 'http://dummyimage.com/132x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (25, 'Muhammad Tolman', 'http://dummyimage.com/223x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (26, 'Natal Hastelow', 'http://dummyimage.com/198x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (27, 'Sarene Brecknall', 'http://dummyimage.com/127x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (28, 'Noach Boulsher', 'http://dummyimage.com/239x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (29, 'Faustina Douch', 'http://dummyimage.com/211x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (30, 'Adelaide Hanney', 'http://dummyimage.com/169x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (31, 'Alonso Jenicek', 'http://dummyimage.com/220x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (32, 'Paloma McCrackem', 'http://dummyimage.com/210x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (33, 'Magdaia Kelby', 'http://dummyimage.com/197x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (34, 'Lacey Nisco', 'http://dummyimage.com/113x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (35, 'Salomi Fillgate', 'http://dummyimage.com/192x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (36, 'Galven Manifould', 'http://dummyimage.com/205x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (37, 'Clerc Syncke', 'http://dummyimage.com/107x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (38, 'Andreas Cossentine', 'http://dummyimage.com/214x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (39, 'Travis Redholls', 'http://dummyimage.com/149x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (40, 'Enrico De Gouy', 'http://dummyimage.com/234x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (41, 'Kaitlyn Egan', 'http://dummyimage.com/167x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (42, 'Bil Jeal', 'http://dummyimage.com/168x100.png/5fa2dd/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (43, 'Cindee Clack', 'http://dummyimage.com/146x100.png/cc0000/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (44, 'Idell Dreigher', 'http://dummyimage.com/133x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (45, 'Vivia Simioni', 'http://dummyimage.com/194x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (46, 'Marta Pelfer', 'http://dummyimage.com/223x100.png/ff4444/ffffff');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (47, 'Camila Boulds', 'http://dummyimage.com/193x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (48, 'Aeriel Lukianovich', 'http://dummyimage.com/149x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (49, 'Reiko Meeny', 'http://dummyimage.com/225x100.png/dddddd/000000');
+insert into tacgia (ma_tgia, ten_tgia, hinh_tgia) values (50, 'Minnnie Olekhov', 'http://dummyimage.com/116x100.png/5fa2dd/ffffff');
+
 
 -- Thêm dữ liệu cho bảng theloai
-INSERT INTO theloai (ma_tloai, ten_tloai) VALUES
-(1, 'Nhạc trữ tình'),
-(2, 'Nhạc pop'),
-(3, 'Nhạc rock'),
-(4, 'Nhạc rap'),
-(5, 'Nhạc jazz'),
-(6, 'Nhạc dance'),
-(7, 'Nhạc country'),
-(8, 'Nhạc classical'),
-(9, 'Nhạc folk'),
-(10, 'Nhạc electronic');
+insert into theloai (ma_tloai, ten_tloai) values (1, 'Tanjung Balai-Karinmunbesar Island');
+insert into theloai (ma_tloai, ten_tloai) values (2, 'London');
+insert into theloai (ma_tloai, ten_tloai) values (3, 'Sacramento');
+insert into theloai (ma_tloai, ten_tloai) values (4, 'Imperatriz');
+insert into theloai (ma_tloai, ten_tloai) values (5, 'Nambaiyufa');
+insert into theloai (ma_tloai, ten_tloai) values (6, 'Okinoerabujima');
+insert into theloai (ma_tloai, ten_tloai) values (7, 'Alto Parnaíba');
+insert into theloai (ma_tloai, ten_tloai) values (8, 'Boana');
+insert into theloai (ma_tloai, ten_tloai) values (9, 'Sehwan Sharif');
+insert into theloai (ma_tloai, ten_tloai) values (10, 'Tete');
+insert into theloai (ma_tloai, ten_tloai) values (11, 'Coronel Suarez');
+insert into theloai (ma_tloai, ten_tloai) values (12, 'Sidi Ifni');
+insert into theloai (ma_tloai, ten_tloai) values (13, 'Shaktoolik');
+insert into theloai (ma_tloai, ten_tloai) values (14, 'Paragould');
+insert into theloai (ma_tloai, ten_tloai) values (15, 'Juanjuí');
+insert into theloai (ma_tloai, ten_tloai) values (16, 'Gonghang-ro (Mokpo)');
+insert into theloai (ma_tloai, ten_tloai) values (17, 'Clinton');
+insert into theloai (ma_tloai, ten_tloai) values (18, 'Gavião Peixoto');
+insert into theloai (ma_tloai, ten_tloai) values (19, 'Cap Haitien');
+insert into theloai (ma_tloai, ten_tloai) values (20, 'Saurimo');
+insert into theloai (ma_tloai, ten_tloai) values (21, null);
+insert into theloai (ma_tloai, ten_tloai) values (22, 'Akita');
+insert into theloai (ma_tloai, ten_tloai) values (23, 'Neiva');
+insert into theloai (ma_tloai, ten_tloai) values (24, null);
+insert into theloai (ma_tloai, ten_tloai) values (25, 'Alenquer');
+insert into theloai (ma_tloai, ten_tloai) values (26, 'Ceuta');
+insert into theloai (ma_tloai, ten_tloai) values (27, 'Jilin');
+insert into theloai (ma_tloai, ten_tloai) values (28, 'Batticaloa');
+insert into theloai (ma_tloai, ten_tloai) values (29, 'Silgadi Doti');
+insert into theloai (ma_tloai, ten_tloai) values (30, 'Al Habbaniyah');
+insert into theloai (ma_tloai, ten_tloai) values (31, 'Santiago');
+insert into theloai (ma_tloai, ten_tloai) values (32, 'Santa Cruz');
+insert into theloai (ma_tloai, ten_tloai) values (33, 'Goiânia');
+insert into theloai (ma_tloai, ten_tloai) values (34, 'Alligandi');
+insert into theloai (ma_tloai, ten_tloai) values (35, 'Lopez');
+insert into theloai (ma_tloai, ten_tloai) values (36, 'Mkuze');
+insert into theloai (ma_tloai, ten_tloai) values (37, 'Aiyura Valley');
+insert into theloai (ma_tloai, ten_tloai) values (38, 'Beaufort');
+insert into theloai (ma_tloai, ten_tloai) values (39, null);
+insert into theloai (ma_tloai, ten_tloai) values (40, 'Dembidollo');
+insert into theloai (ma_tloai, ten_tloai) values (41, 'South Bend');
+insert into theloai (ma_tloai, ten_tloai) values (42, 'Urgench');
+insert into theloai (ma_tloai, ten_tloai) values (43, 'Punta Cana');
+insert into theloai (ma_tloai, ten_tloai) values (44, 'Mombaça');
+insert into theloai (ma_tloai, ten_tloai) values (45, 'St. Theresa Point');
+insert into theloai (ma_tloai, ten_tloai) values (46, 'Vinnitsa');
+insert into theloai (ma_tloai, ten_tloai) values (47, 'Niort/Souché');
+insert into theloai (ma_tloai, ten_tloai) values (48, null);
+insert into theloai (ma_tloai, ten_tloai) values (49, 'Fort Bridger');
+insert into theloai (ma_tloai, ten_tloai) values (50, 'Bainyik');
 
 -- Thêm dữ liệu cho bảng baiviet
-INSERT INTO baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) VALUES
-(1, 'Bài viết 1', 'Bài hát 1', 1, 'Tóm tắt bài viết 1', 'Nội dung bài viết 1', 1, '2023-09-22 10:00:00', 'hinhanh1.jpg'),
-(2, 'Bài viết 2', 'Bài hát 2', 2, 'Tóm tắt bài viết 2', 'Nội dung bài viết 2', 2, '2023-09-22 11:00:00', 'hinhanh2.jpg'),
-(3, 'Bài viết 3', 'Bài hát 3', 3, 'Tóm tắt bài viết 3', 'Nội dung bài viết 3', 3, '2023-09-22 12:00:00', 'hinhanh3.jpg'),
-(4, 'Bài viết 4', 'Bài hát 4', 4, 'Tóm tắt bài viết 4', 'Nội dung bài viết 4', 4, '2023-09-22 13:00:00', 'hinhanh4.jpg'),
-(5, 'Bài viết 5', 'Bài hát 5', 5, 'Tóm tắt bài viết 5', 'Nội dung bài viết 5', 5, '2023-09-22 14:00:00', 'hinhanh5.jpg'),
-(6, 'Bài viết 6', 'Bài hát 6', 1, 'Tóm tắt bài viết 6', 'Nội dung bài viết 6', 2, '2023-09-22 15:00:00', 'hinhanh6.jpg'),
-(7, 'Bài viết 7', 'Bài hát 7', 2, 'Tóm tắt bài viết 7', 'Nội dung bài viết 7', 3, '2023-09-22 16:00:00', 'hinhanh7.jpg'),
-(8, 'Bài viết 8', 'Bài hát 8', 3, 'Tóm tắt bài viết 8', 'Nội dung bài viết 8', 4, '2023-09-22 17:00:00', 'hinhanh8.jpg'),
-(9, 'Bài viết 9', 'Bài hát 9', 4, 'Tóm tắt bài viết 9', 'Nội dung bài viết 9', 5, '2023-09-22 18:00:00', 'hinhanh9.jpg'),
-(10, 'Bài viết 10', 'Bài hát 10', 5, 'Tóm tắt bài viết 10', 'Nội dung bài viết 10', 1, '2023-09-22 19:00:00', 'hinhanh10.jpg');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (1, 'Atinjoe-Papua Island', 'SODIUM FLUORIDE and POTASSIUM NITRATE', 1, 'Drama', 'Action|Fantasy|Western', 1, '6/21/2023', 'http://dummyimage.com/150x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (2, 'Ottawa', 'Guaifenesin', 2, 'Drama|Western', 'Musical', 2, '12/9/2022', 'http://dummyimage.com/209x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (3, 'Nawabashah', 'clonidine hydrochloride', 3, 'Drama', 'Action|Crime|Drama|Thriller', 3, '11/15/2022', 'http://dummyimage.com/194x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (4, 'Tchien', 'Oxymetazoline hydrochloride', 4, 'Comedy', 'Drama', 4, '8/28/2023', 'http://dummyimage.com/129x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (5, 'Hyderabad', 'Nystatin', 5, 'Horror', 'Drama', 5, '5/3/2023', 'http://dummyimage.com/231x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (6, 'Weipa', 'GEMFIBROZIL', 6, 'Drama', 'Crime|Film-Noir|Romance', 6, '12/23/2022', 'http://dummyimage.com/245x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (7, 'Libo County', 'treprostinil', 7, 'Horror', 'Adventure|Drama|Romance', 7, '2/27/2023', 'http://dummyimage.com/139x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (8, 'Tocumen', 'Digoxin', 8, 'Comedy', '(no genres listed)', 8, '1/26/2023', 'http://dummyimage.com/220x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (9, 'Paratebueno', 'Trazodone Hydrochloride', 9, 'Horror|Romance|Thriller', 'Drama', 9, '12/8/2022', 'http://dummyimage.com/148x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (10, 'Salmon Arm', 'HYDRALAZINE HYDROCHLORIDE', 10, 'Adventure|Animation|Children', 'Horror|Sci-Fi|Thriller', 10, '12/11/2022', 'http://dummyimage.com/113x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (11, 'Catania', 'cimetidine', 11, 'Adventure', 'Action|Adventure', 11, '10/29/2022', 'http://dummyimage.com/120x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (12, 'Meknes', 'Polyethlene glycol 400 Tetrahydrozoline HCl', 12, 'Documentary', 'Adventure|Animation|Children', 12, '10/12/2022', 'http://dummyimage.com/246x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (13, 'Tikchik', 'HEPARIN SODIUM', 13, 'Drama', 'Drama', 13, '11/17/2022', 'http://dummyimage.com/150x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (14, 'Middle Caicos', 'TERBINAFINE HYDROCHLORIDE', 14, 'Adventure|Animation|Children|Drama|Fantasy', 'Drama|Mystery|Thriller', 14, '10/23/2022', 'http://dummyimage.com/182x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (15, 'Chihuahua', 'Hydrogen Peroxide', 15, 'Action|Comedy|Thriller', 'Action|Horror|Thriller', 15, '11/2/2022', 'http://dummyimage.com/146x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (16, 'San Javier', 'Pioglitazone Hydrochloride', 16, 'Mystery|Thriller', 'Drama|Musical', 16, '9/29/2023', 'http://dummyimage.com/239x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (17, 'Grand Forks', 'HEPARIN SODIUM', 17, 'Action|Thriller', 'Comedy|Drama|Romance', 17, '10/16/2022', 'http://dummyimage.com/161x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (18, 'Sidi Bel Abbès', 'AVOBENZONE, OCTINOXATE, OCTOCRYLENE, and OXYBENZONE', 18, 'Comedy|Drama|Romance', 'Comedy', 18, '8/30/2023', 'http://dummyimage.com/167x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (19, 'Ísafjörður', 'OCTINOXATE avobenzone titanium oxide', 19, 'Documentary', 'Animation|Children', 19, '4/11/2023', 'http://dummyimage.com/241x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (20, 'Mandritsara', 'Miconazole nitrate', 20, 'Drama', 'Drama', 20, '6/18/2023', 'http://dummyimage.com/234x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (21, 'Ormara Raik', 'OXYBUTYNIN CHLORIDE', 21, 'Comedy|Drama|Romance', 'Comedy', 21, '10/25/2022', 'http://dummyimage.com/201x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (22, 'Morón', 'HYDROQUINONE', 22, 'Comedy', 'Drama|Romance', 22, '1/24/2023', 'http://dummyimage.com/116x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (23, 'Mboki', 'Lovastatin', 23, 'Comedy', 'Drama', 23, '6/26/2023', 'http://dummyimage.com/184x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (24, 'Niuatoputapu', 'Pyrithione Zinc', 24, 'Crime|Drama', 'Comedy|Musical', 24, '9/2/2023', 'http://dummyimage.com/131x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (25, 'N''Djolé', 'Dock Sour Sheep Sorrel', 25, 'Documentary', 'Action|Adventure|Crime|Thriller', 25, '3/6/2023', 'http://dummyimage.com/218x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (26, 'Júlio De Castilho', 'Pyrithione Zinc', 26, 'Drama|Thriller', 'Crime|Drama|Thriller', 26, '4/4/2023', 'http://dummyimage.com/167x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (27, 'Aberdeen', 'diltiazem hydrochloride', 27, 'Adventure|Drama', 'Drama|War', 27, '2/7/2023', 'http://dummyimage.com/242x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (28, 'Badanjilin', 'Gabapentin', 28, 'Drama|Film-Noir', 'Drama', 28, '10/30/2022', 'http://dummyimage.com/181x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (29, 'Cananea', 'Doxazosin Mesylate', 29, 'Action|Thriller', 'Horror', 29, '1/9/2023', 'http://dummyimage.com/152x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (30, 'Derna', 'Naproxen sodium, Pseudoephedrine HCl', 30, 'Adventure|Drama|Romance', 'Horror|Mystery|Thriller', 30, '10/20/2022', 'http://dummyimage.com/123x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (31, null, 'Acetaminophen', 31, 'Documentary', 'Action|Adventure|Drama|War', 31, '8/28/2023', 'http://dummyimage.com/137x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (32, 'Susanville', 'Lisinopril and Hydrochlorothiazide', 32, 'Drama', 'Drama', 32, '10/27/2022', 'http://dummyimage.com/155x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (33, 'Araak', 'Euphrasia, Graphites, Mer sol, Pulsatilla, Psorinum', 33, 'Comedy|Romance', '(no genres listed)', 33, '12/28/2022', 'http://dummyimage.com/180x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (34, 'Formosa', 'PredniSONE', 34, 'Drama', 'Horror', 34, '8/14/2023', 'http://dummyimage.com/193x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (35, 'Nain', 'Pseudoephedrine HCl', 35, 'Comedy', 'Children|Comedy', 35, '8/7/2023', 'http://dummyimage.com/241x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (36, 'Wise', 'ALCOHOL', 36, 'Documentary', 'Action|Comedy|Crime', 36, '12/31/2022', 'http://dummyimage.com/231x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (37, 'Silao', 'Paricalcitol', 37, 'Romance|Sci-Fi', 'Animation|Mystery|Sci-Fi', 37, '12/8/2022', 'http://dummyimage.com/174x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (38, 'Kasenga', 'BENZALKONIUM CHLORIDE, BENZOCAINE, SD ALCOHOL, BACITRACIN ZINC, NEOMYCIN SULFATE, POLYMYXIN B', 38, 'Comedy', 'Adventure|Comedy', 38, '4/6/2023', 'http://dummyimage.com/197x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (39, 'Norfolk', 'Ibuprofen and Pseudoephedrine Hydrochloride', 39, 'Children|Comedy|Fantasy', 'Drama', 39, '6/18/2023', 'http://dummyimage.com/133x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (40, 'Thakhek', 'Dextromethorphan HBr, Guaifenesin', 40, 'Drama|Musical|Romance', 'Horror', 40, '11/24/2022', 'http://dummyimage.com/107x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (41, 'Sasstown', 'Bismuth subsalicylate', 41, 'Comedy|Drama|Fantasy|Mystery|Romance', 'Drama|Romance', 41, '10/10/2022', 'http://dummyimage.com/184x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (42, 'Scottsbluff', 'Olanzapine', 42, 'Crime', 'Comedy', 42, '8/22/2023', 'http://dummyimage.com/235x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (43, 'Hay River', 'Not applicable', 43, 'Comedy|Drama', 'Mystery|Thriller', 43, '7/6/2023', 'http://dummyimage.com/250x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (44, null, 'Ensulizole', 44, 'Drama', 'Horror', 44, '9/24/2023', 'http://dummyimage.com/111x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (45, 'Amanab', 'Oyster', 45, 'Comedy', 'Crime|Drama|Mystery|Thriller', 45, '1/13/2023', 'http://dummyimage.com/203x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (46, 'Breckenridge', 'Epidermophyton floccosum', 46, 'Crime|Drama|Thriller', 'Adventure|Crime|Drama|Romance|Thriller', 46, '11/23/2022', 'http://dummyimage.com/198x100.png/dddddd/000000');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (47, null, 'Oxygen', 47, 'Action|Drama', 'Comedy', 47, '11/4/2022', 'http://dummyimage.com/193x100.png/5fa2dd/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (48, 'Clinton', 'Glyburide and Metformin', 48, 'Drama|War', 'Drama|Romance', 48, '3/18/2023', 'http://dummyimage.com/172x100.png/cc0000/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (49, 'Helsinki', 'Alprazolam', 49, 'Adventure|Drama', 'Drama', 49, '2/27/2023', 'http://dummyimage.com/163x100.png/ff4444/ffffff');
+insert into baiviet (ma_bviet, tieude, ten_bhat, ma_tloai, tomtat, noidung, ma_tgia, ngayviet, hinhanh) values (50, 'Lewiston', 'Zinc Oxide', 50, 'Action|Crime|Fantasy|Sci-Fi|Thriller', 'Drama', 50, '6/26/2023', 'http://dummyimage.com/155x100.png/5fa2dd/ffffff');

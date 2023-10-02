@@ -1,29 +1,44 @@
-﻿CREATE DATABASE BTTH01_CSE485
-
+﻿
 CREATE TABLE tacgia(
-ma_tgia int not null primary key,
+ma_tgia int not null primary KEY AUTO_INCREMENT PRIMARY KEY,
 ten_tgia varchar(100) not null, /*de bai sai o day ten tác giả phải là chữ */
 hinh_tgia varchar(100)
 );
 
+
 CREATE TABLE theloai(
-ma_tloai int not null primary key,
+ma_tloai int not null AUTO_INCREMENT PRIMARY KEY,
 ten_tloai varchar(50) not null
 );
 
+
+CREATE TABLE nguoidung (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    full_name VARCHAR(255),
+    role ENUM('admin', 'author', 'user') DEFAULT 'user',
+    status ENUM('active', 'inactive') DEFAULT 'inactive',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+
 CREATE TABLE baiviet(
-ma_bviet int not null primary key,
-tieude varchar(200) not null,
+ma_bviet int not null AUTO_INCREMENT PRIMARY KEY,
+tieude varchar(100) not null,
 ten_bhat varchar(100) not null,
-ma_tloai int not null,
+ma_tloai int not NULl,
 tomtat text not null,
 noidung text,
 ma_tgia int not null,
 ngayviet datetime not null,
 hinhanh varchar(200),
-FOREIGN KEY (ma_tloai) REFERENCES  theloai(ma_tloai),
-FOREIGN KEY (ma_tgia) REFERENCES  tacgia(ma_tgia),
+FOREIGN KEY (ma_tloai) REFERENCES theloai(ma_tloai),
+FOREIGN KEY (ma_tgia) REFERENCES tacgia(ma_tgia)
 );
+
 
 --3 Thực hiện truy vấn 
 --a. Liệt kê các bài viết về các bài hát thuộc thể loại Nhạc trữ tình (2 đ)
