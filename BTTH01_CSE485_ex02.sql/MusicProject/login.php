@@ -1,3 +1,44 @@
+<?php
+session_start();
+
+if (isset($_POST['login'])) {
+    $usernameOrEmail = $_POST['usernameOrEmail'];
+    $password = $_POST['password'];
+
+    $servername = "localhost";
+    $dbUsername = "root";
+    $dbPassword = "442003";
+    $dbName = "btth01_cse485";
+
+    try {
+        $conn = new PDO("mysql:host=$servername;dbname=$dbName", $dbUsername, $dbPassword);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $stmt = $conn->prepare("SELECT * FROM nguoidung WHERE username = :usernameOrEmail OR email = :usernameOrEmail");
+        $stmt->bindParam(':usernameOrEmail', $usernameOrEmail);
+        $stmt->execute();
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($user) {
+            if (password_verify($password, $user['password_hash'])) {
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['username'] = $user['username'];
+                $_SESSION['role'] = $user['role'];
+
+                header("Location: ./admin/index.php");
+                exit();
+            } else {
+                echo "Sai mật khẩu. Vui lòng thử lại.";
+            }
+        } else {
+            echo "Tài khoản không tồn tại!";
+        }
+    } catch (PDOException $e) {
+        echo "Lỗi kết nối cơ sở dữ liệu: " . $e->getMessage();
+    }
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -20,14 +61,14 @@
             <div class="login w-25 h-25 bg-secondary container mt-5">
                 <h5 class="text-white">Sign In</h5>
                 <hr>
-                <form class="row row-cols-lg g-3 align-items-center ">
+                <form method="POST" action="login.php" class="row row-cols-lg g-3 align-items-center ">
                     <div class="col-12">
                         <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
                         <div class="input-group">
                             <div class="input-group-text">
                                 <i class="bi bi-person-fill"></i>
                             </div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                            <input type="text" name="usernameOrEmail" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
                         </div>
                     </div>
 
@@ -35,7 +76,7 @@
                         <label class="visually-hidden" for="inlineFormInputGroupUsername">Password</label>
                         <div class="input-group">
                             <div class="input-group-text"><i class="bi bi-key-fill"></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Password">
+                            <input type="password" name="password" class="form-control" id="inlineFormInputGroupUsername" placeholder="Password">
                         </div>
                     </div>
 
@@ -49,9 +90,10 @@
                     </div>
 
                     <div class="col-12 row">
-                        <button type="submit" class="btn btn-warning mt-3 ms-1">
-                            <a class="text-dark text-decoration-none w-100" href="./admin/index.php">Login</a>
+                        <button type="submit" name="login" class="btn btn-warning mt-3 ms-1">
+                            Login
                         </button>
+
                     </div>
                     <div class="icon">
                         <i class="bi bi-facebook text-primary fs-3"></i>
@@ -60,14 +102,15 @@
                     </div>
                     <hr>
                     <div class="a">
-                        <p class="text-center">Don't have account? <a class="text-warning text-decoration-none" href="">Sinup</a>
+                        <p class="text-center">Don' t have account? <a class="text-warning text-decoration-none" href="./register.php">Sinup</a>
                         </p>
                         <p class="text-center "><a class="text-warning text-decoration-none" href="">Forgot
                                 you password?</a>
                         </p>
                     </div>
+                </form>
+
             </div>
-            </form>
     </div>
 
     <footer>

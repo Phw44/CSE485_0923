@@ -22,6 +22,8 @@
                 <ul class="text-nav ">
                     <a href="index.php" class="text-decoration-none text-dark fw-bold">TRANG CHỦ</a>
                     <a href="login.php" class="text-decoration-none text-dark mx-3">ĐĂNG NHẬP</a>
+                    <a href="register.php" class="text-decoration-none text-dark mx-3">ĐĂNG KÝ</a>
+
                 </ul>
             </div>
 
